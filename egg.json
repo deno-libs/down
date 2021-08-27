@@ -1,0 +1,21 @@
+{
+  "$schema": "https://x.nest.land/eggs@0.3.8/src/schema.json",
+  "name": "down",
+  "entry": "./mod.ts",
+  "description": "📉 Check if website is down using `ping` command",
+  "homepage": "https://github.com/deno-libs/down",
+  "version": "1.0.0",
+  "releaseType": null,
+  "unstable": false,
+  "unlisted": false,
+  "files": [
+    "README.md",
+    "mod.ts",
+    "LICENSE"
+  ],
+  "ignore": [],
+  "checkFormat": false,
+  "checkTests": false,
+  "checkInstallation": true,
+  "check": true
+}
