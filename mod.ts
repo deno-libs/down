@@ -12,5 +12,7 @@ export const down = async (host: string, timeout = 1): Promise<boolean> => {
 
   const { code } = await cmd.status()
 
+  cmd.close()
+
   return code !== 0
 }
