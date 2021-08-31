@@ -4,7 +4,7 @@
   "entry": "./mod.ts",
   "description": "📉 Check if website is down using `ping` command",
   "homepage": "https://github.com/deno-libs/down",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "releaseType": null,
   "unstable": false,
   "unlisted": false,
@@ -15,7 +15,7 @@
   ],
   "ignore": [],
   "checkFormat": false,
-  "checkTests": false,
+  "checkTests": true,
   "checkInstallation": true,
   "check": true
 }
