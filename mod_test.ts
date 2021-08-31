@@ -2,12 +2,7 @@ import { describe, expect, it, run } from 'https://deno.land/x/tincan@0.2.1/mod.
 import { down } from './mod.ts'
 
 describe('down', () => {
-  it('returns false if website is up', async () => {
-    const isDown = await down('example.com')
-
-    expect(isDown).toBe(false)
-  })
-  it('returns false if website is down', async () => {
+  it('returns true if website is down', async () => {
     const isDown = await down('coom.finance')
 
     expect(isDown).toBe(true)
