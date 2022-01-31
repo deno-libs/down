@@ -1,4 +1,4 @@
-import { describe, expect, it, run } from 'https://deno.land/x/tincan@0.2.1/mod.ts'
+import { describe, expect, it, run } from 'https://deno.land/x/tincan@1.0.0/mod.ts'
 import { down } from './mod.ts'
 
 describe('down', () => {
