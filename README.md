@@ -27,7 +27,7 @@ the `ping` module is available in the following Deno registries:
 
 [docs-badge]: https://img.shields.io/github/v/release/deno-libs/down?label=Docs&logo=deno&style=for-the-badge&color=black
 [docs]: https://doc.deno.land/https/deno.land/x/down/mod.ts
-[gh-actions-img]: https://img.shields.io/github/workflow/status/deno-libs/down/CI?style=for-the-badge&logo=github&label=&color=black
+[gh-actions-img]: http://img.shields.io/github/actions/workflow/status/deno-libs/down/main.yml?branch=master&style=for-the-badge&logo=github&label=&color=black
 [cov]: https://coveralls.io/github/deno-libs/down
 [github-actions]: https://github.com/deno-libs/down/actions
 [cov-badge]: https://img.shields.io/coveralls/github/deno-libs/down?style=for-the-badge&color=black&
