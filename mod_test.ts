@@ -10,7 +10,7 @@ describe('down', () => {
   it('supports custom timeout', async () => {
     const t = performance.now()
     const isDown = await down('this.is.down.v1rtl.site', 0.5)
-    expect(performance.now() - t).toBeGreaterThan(500)
+    expect(performance.now() - t).not.toBeGreaterThan(500)
 
     expect(isDown).toBe(true)
   })
